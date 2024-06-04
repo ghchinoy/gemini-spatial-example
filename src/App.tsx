@@ -30,9 +30,9 @@ function App() {
     <div className="flex h-[100dvh] overflow-auto flex-col">
       <div className="max-w-[530px] mx-auto flex pt-4 px-2 flex-col gap-3 pb-8">
         <div className="">
-          <span className="font-bold">Gemini Spatial Example</span> using the{" "}
+          <span className="font-bold">Vertex AI Gemini Spatial Example</span> using the{" "}
           <a
-            href="https://ai.google.dev/"
+            href="https://cloud.google.com/vertex-ai"
             target="_blank"
             className="underline"
           >
@@ -184,16 +184,23 @@ function App() {
         ) : null}
         <div>
           <div className="italic text-sm">
-            Public version of this is subject to rate limits across users. Clone
-            and use with your own API key to get more reliable results.
+            This uses the Vertex AI version of the Gemini API.
           </div>
+          <a  
+            href="https://github.com/ghchinoy/gemini-spatial-example"
+            target="_blank"
+            className="underline"
+            rel="noreferrer"
+          >
+            GitHub repo
+          </a> & 
           <a
             href="https://github.com/GrantCuster/gemini-spatial-example"
             target="_blank"
             className="underline"
             rel="noreferrer"
           >
-            Github repo
+            Grant Custer's original Github repo
           </a>
         </div>
       </div>
